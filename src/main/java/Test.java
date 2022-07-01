@@ -10,7 +10,6 @@ public class Test {
         Scanner scan = new Scanner(System.in);
 
         String userInput = scan.nextLine();
-        String flipped = "";
         String revFlip = "";
 
         if(StringUtils.isNumeric(userInput)){
